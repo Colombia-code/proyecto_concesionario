@@ -1,0 +1,11 @@
+.options-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -8px;
+    align-content: center;
+    align-items: center;
+}
+
+/* .options-nav>*{
+    margin: 0px;
+} */

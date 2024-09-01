@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+    font-family: "ToyotaText", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }

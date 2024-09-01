@@ -13,6 +13,9 @@ import { LConfToyotaComponent } from './components/atoms/nav/l-conf-toyota/l-con
 import { LEntregaInmediataComponent } from './components/atoms/nav/l-entrega-inmediata/l-entrega-inmediata.component';
 import { LFlotasComponent } from './components/atoms/nav/l-flotas/l-flotas.component';
 import { LUsadosComponent } from './components/atoms/nav/l-usados/l-usados.component';
+import { NavListComponent } from './components/molecules/nav-list/nav-list.component';
+import { NavSectionComponent } from './components/molecules/nav-section/nav-section.component';
+import { OptionsNavComponent } from './components/organisms/options-nav/options-nav.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { LUsadosComponent } from './components/atoms/nav/l-usados/l-usados.compo
     LConfToyotaComponent,
     LEntregaInmediataComponent,
     LFlotasComponent,
-    LUsadosComponent
+    LUsadosComponent,
+    NavListComponent,
+    NavSectionComponent,
+    OptionsNavComponent
   ],
   imports: [
     BrowserModule,
